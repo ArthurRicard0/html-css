@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GROUPING TAGS</title>
+    <style>
+
+        /*
+        paleta de cores
+        #5A3180
+        #D8ADFF
+        #B361FF
+        #8F4ECC
+        */
+
+        /*
+        box-shadow: deslocamento horizontal  deslocamento vertical  espalhamneto  cor
+        */
+        body{
+            background-color: #D8ADFF;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+        }
+        header{
+            background-color: #8F4ECC;
+            text-align: center;
+            margin: 20px;
+            padding: 5px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-weight: 300;
+            box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.541);
+            border-radius: 10px;
+        }
+        header > h1{
+            color: white;
+            
+        }
+        nav{
+            padding: 3px;
+            margin: 3px;
+        }
+        nav > a{
+            display: inline-block;
+            text-decoration: none;
+            font-size: large;
+            color: #ffffff;
+            margin: 2px;
+            background-color: #D8ADFF;
+            border-radius: 25px;
+            padding: 3px 10px 3px 10px;
+            margin: 10px;
+            box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.192);
+        }
+        nav > a:hover{
+            background-color: #5b00b1;
+            text-decoration: none;
+            transform: scale(1.2);
+            transition: 0.35s;
+        }
+
+        main {
+            background-color: #ffffff;
+            margin: 20px;
+            padding: 10px;
+            box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.541);
+            border-radius: 10px;
+        }
+        #assuntos{
+            color:rgb(0, 0, 0);
+            font-size: large;
+            font-weight: 800;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+            text-decoration: wavy;
+            background-color: #D8ADFF;
+            padding: 10px;
+            box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.541);
+        }
+        footer{
+            background-color: #B361FF;
+            text-align: center;
+            padding: 2px;
+        }
+        
+    </style>
+</head>
+<body>
+
+    <!--tag header = cabeçalho
+    tag main = o conteúdo em si
+    tag footer = rodapé
+
+    ATALHO PARA COMENTARIO NO HTML SHIFT + ALT+ A
+    -->
+
+    <header>
+        <h1>SITE DO ARTUZIN DO HOT</h1>
+        <nav>
+            <a href="https://www.instagram.com/arthur_ricard0/" target="_blank">INSTA</a>
+            <a href="#">FACE</a>
+            <a href="#">TWITTER</a>
+            <a href="#">TELEGRAM</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>QUEM EU SOU ---  WHATSAPP --- TELEGRAM --- MEUS CONTEUDOS</p>
+        </section>
+        <section>
+            <article>
+                <h2 id="h2">Quem eu sou</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut commodi consectetur dignissimos ipsa. Hic, porro saepe autem fugit sed temporibus ipsam illo ducimus rem vero? Neque nemo vero nobis molestiae! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas, debitis sint. Commodi sequi tenetur illo officia incidunt deleniti beatae laudantium consequatur sunt, excepturi ratione, eveniet quidem dolores animi eos quas.</p>
+                <a href="https://www.instagram.com/arthur_ricard0/" target="_blank">Clique aqui e venha para meu instagram</a>
+            </article>
+            <aside>
+                é um bagulho aparte
+            </aside>
+            <article>
+                <h2 id="h2">WhatsApp</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque debitis porro praesentium? Non odio vitae culpa molestiae quasi iure soluta quis cum. Maxime nostrum obcaecati dolorum repellat illo assumenda vel.</p>
+                <a href="#">Link para meu WhatsApp</a>
+            </article>
+            <article>
+                <h2 id="h2">Telegram</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis incidunt quam optio dignissimos sint cupiditate necessitatibus, aliquid ab id reprehenderit atque? Non modi incidunt magnam, quos natus amet temporibus similique?</p>
+                <a href="#">Link para meu Telegram</a>
+            </article>
+            <article>
+                <h2 id="h2">Meus Conteúdos</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto atque temporibus neque consequuntur! Inventore quibusdam repellat quam esse sequi. Molestias vero doloremque commodi harum quasi dicta. Veniam vel ipsa doloribus.</p>
+                <a href="#">Link para meus Conteúdos</a>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Arthurzin do HOT</p>
+    </footer>
+</body>
+</html>

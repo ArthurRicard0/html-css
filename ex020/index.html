@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-Classes</title>
+    <style>
+        /*
+        : em CSS são pseudo-classes
+        # = id
+        . = class
+        : = pseudo-class
+        :: = pseudo-element
+        > = children
+        */
+        div{
+            display: inline-block;
+            background-color: lightgray;
+            border: 1px solid black;
+            text-align: center;
+            height: 200px;
+            width: 200px;
+        }
+
+        div:hover {
+            background-color: yellow;
+        }
+
+        .top2 > p {
+            display: none;
+        }
+
+        .top2:hover {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div id="d1">01</div>
+    <div id="d2">02</div>
+    <div id="d3">03</div>
+    <br>
+    <br>
+    <div class="top2">
+        Passe a porra do mouse aqui
+        <p>
+            TEXTO ESCONDIDO É MEU OVO...
+        </p>
+    </div>
+</body>
+</html>
