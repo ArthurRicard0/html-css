@@ -86,7 +86,7 @@ a.externo::after{
 #img{
     margin: auto;
     display: block;
-    max-width: 350px;
+    max-width: 300px;
 }
 #h1top{
     font-size: 40px;
@@ -116,7 +116,7 @@ p{
 
 div.video{
     background-color: #063304;
-    margin: 0px -20px 30px -20px;
+    margin: 0px -5px 30px -5px;
     padding: 20px;
     padding-bottom: 58%;
     position:relative;
@@ -125,7 +125,7 @@ div.video{
 div.video > iframe{
     position: absolute;
     top: 5%;
-    left?: 5%;
+    left: 5%;
     width: 90%;
     height: 90%;
 }
